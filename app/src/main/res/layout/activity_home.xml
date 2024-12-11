@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E3F2FD"
+    android:padding="16dp">
+
+    <!-- Welcome Card -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:gravity="center">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="24sp"
+            android:textColor="#1565C0"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- User's Full Name -->
+        <TextView
+            android:id="@+id/usersName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#1E88E5"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- Decorative Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BBDEFB"
+        android:layout_marginVertical="8dp" />
+
+    <!-- Additional Placeholder for Buttons or Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/logOutButton"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E88E5"
+            android:text="Log Out"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

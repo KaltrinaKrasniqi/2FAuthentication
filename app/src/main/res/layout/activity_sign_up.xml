@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="vertical"
+
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            app:srcCompat="@drawable/add_user" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="Create an Account"
+            android:textColor="#0D47A1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Full Name Field -->
+        <EditText
+            android:id="@+id/nameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="#2196F3"
+            android:textColorHint="#1E88E5" />
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/surnameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Surname"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="#2196F3"
+            android:textColorHint="#1E88E5" />
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="#2196F3"
+            android:textColorHint="#1E88E5" />
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#2196F3"
+            android:textColorHint="#1E88E5" />
+
+        <!-- Confirm Password Field -->
+        <EditText
+            android:id="@+id/confirmPasswordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#2196F3"
+            android:textColorHint="#1E88E5" />
+
+        <!-- Sign Up Button -->
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="#1E88E5"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginRedirect"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="#1E88E5"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Redirect to Login -->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
