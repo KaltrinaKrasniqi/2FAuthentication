@@ -14,7 +14,11 @@ This is a project developed in Android Studio using Java, designed to enhance us
 - Ensure you have Android Studio installed on your system.
 - Use a Gmail account with an app password enabled for sending emails.
 
-### Installation
+### Run the application
 1. Clone the repository:
    ```bash
    git clone https://github.com/KaltrinaKrasniqi/2FAuthentication.git
+2. Launch Android Studio and select the Open an Existing Project option. Navigate to the cloned repository folder and open it.
+3. Enter an email address during the login or sign-up process.
+4. Check the inbox of the provided email to receive the verification code.
+5. Enter the code on the verification page to complete the authentication process.
